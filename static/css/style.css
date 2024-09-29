@@ -38,7 +38,7 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 	font-size: 18px;
 	border-radius: 0;
 	line-height: 22px;
-	background-color: #fbfbfb;
+	background-color: #145d5f2c;
 	padding: 13px 13px 13px 54px;
 	margin-bottom: 10px;
 	width:100%;
@@ -46,21 +46,21 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+  border: 3px solid rgba(0, 42, 231, 0.048);
 }
 
 .feedback-input:focus{
-	background: #fff;
+	background: #9e1369;
 	box-shadow: 0;
-	border: 3px solid #3498db;
-	color: #3498db;
+	border: 3px solid #083655;
+	color: #d6970d;
 	outline: none;
   padding: 13px 13px 13px 54px;
 }
 
 .focused{
-	color:#30aed6;
-	border:#30aed6 solid 3px;
+	color:#adaf18;
+	border:#28b653 solid 3px;
 }
 
 /* Icons ---------------------------------- */
@@ -116,10 +116,10 @@ input:focus, textarea:focus {
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
 	width: 100%;
-	border: #fbfbfb solid 4px;
+	border: #4060ca solid 4px;
 	cursor:pointer;
-	background-color: #3498db;
-	color:white;
+	background-color: #13880f;
+	color:rgba(104, 102, 3, 0.651);
 	font-size:24px;
 	padding-top:22px;
 	padding-bottom:22px;
@@ -131,18 +131,18 @@ input:focus, textarea:focus {
 }
 
 #button-blue:hover{
-	background-color: rgba(0,0,0,0);
-	color: #0493bd;
+	background-color: rgba(19, 216, 52, 0);
+	color: #7c4373;
 }
 	
 .submit:hover {
-	color: #3498db;
+	color: #746308;
 }
 	
 .ease {
 	width: 0px;
 	height: 74px;
-	background-color: #fbfbfb;
+	background-color: #851414;
 	-webkit-transition: .3s ease;
 	-moz-transition: .3s ease;
 	-o-transition: .3s ease;
@@ -152,7 +152,7 @@ input:focus, textarea:focus {
 
 .submit:hover .ease{
   width:100%;
-  background-color:white;
+  background-color:rgb(213, 255, 114);
 }
 
 @media only screen and (max-width: 580px) {
